@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/react-native-community/react-native-blur",
   "dependencies": {
-    "prop-types": "^15.5.10",
-    "react-native": "0.32"
+    "prop-types": "^15.5.10"
   }
 }

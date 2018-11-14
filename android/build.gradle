@@ -1,10 +1,6 @@
 buildscript {
     repositories {
         jcenter()
-        maven {
-            // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
-            url "./node_modules/react-native/android"
-        }
     }
 
     dependencies {
@@ -37,5 +33,5 @@ repositories {
 }
 
 dependencies {
-    compile 'com.facebook.react:react-native:[0.32,)'
+    compile 'com.facebook.react:react-native:0.57.+'
 }
